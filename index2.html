@@ -1,0 +1,57 @@
+<!DOSTYPE html>
+<html>
+<head>
+</head>
+<body>
+<style>
+body{
+background-color:#fff6e7;
+}
+
+</style>
+
+<form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php">
+  <div class="guruweba_example_caption">Зворотній зв'язок</div>
+ 
+  <div>Ваша стать</div>
+  
+  <select name="theme" required="required">
+    <option value="">Оберіть варіант</option>
+    <option>Жіноча</option>
+    <option>Чоловіча</option>
+	</select>
+	<div>Оцінка сайту від 1 до 5</div>
+  
+  <select name="theme" required="required">
+    <option value="">Оберіть варіант</option>
+    <option>1</option>
+    <option>2</option>
+	<option>3</option>
+    <option>4</option>
+	<option>5</option>
+
+	</select>
+  <div>Відгук</div>
+  <textarea name="message"></textarea>
+  <input type="submit" name="submit_btn" value="Отправить">
+</form>
+<style class="text/css">
+  .guruweba_example_form {
+    width: 290px;
+  }
+  .guruweba_example_caption {
+    font-size: 34px;
+    text-align: center;
+  }
+  .guruweba_example_form .guruweba_example_infofield {
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  .guruweba_example_form select, .guruweba_example_form input, .guruweba_example_form textarea {
+    width: 200%;
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+</style>
+</body>
+</html>
